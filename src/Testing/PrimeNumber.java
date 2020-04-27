@@ -28,4 +28,39 @@ public class PrimeNumber {
 	}
 	System.out.println(pnumber);
 
-}}
+}
+	
+	/*public static void main(String[] arg) {
+		
+		int find =0;
+		int n= 25;
+		int m = n/2;
+		
+		if(n==0 || n ==1) {
+			System.out.println("Not prime number");
+			
+		}else {
+		
+		for(int i =2; i<=m; i++) {
+			
+			if(n%i ==0) {
+				System.out.println("Not Prime");
+				
+			find = 1;
+			break;
+			}
+		}		
+			if(find==0) {
+				System.out.println("Prime number");
+				
+			}
+			
+		}
+				
+		
+		
+		
+		
+	}*/
+	
+}

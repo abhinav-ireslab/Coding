@@ -1,6 +1,6 @@
 package Testing;
 
-public class example2 {
+public class countofn {
 	
 	
 	
@@ -14,7 +14,7 @@ public class example2 {
 			temp = temp + i;
 		}
 			
-			System.out.println(+temp);
+			System.out.println(temp);
 
 }
 }

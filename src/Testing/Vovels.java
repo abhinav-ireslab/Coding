@@ -6,7 +6,7 @@ public class Vovels {
 
 	public static void main(String[] arg) {
 
-		String str = "AkashkumarSinghal";
+		String str = "Akash kumar Singhal";
 
 		str = str.toLowerCase();
 
