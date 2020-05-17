@@ -30,6 +30,9 @@ public class special_not_reverse {
             } 
         } 
     } 
+    
+       
+    
 
 	public static void main(String[] args)  
     { 
