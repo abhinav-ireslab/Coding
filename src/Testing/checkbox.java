@@ -13,7 +13,7 @@ public class checkbox {
 	
 	static WebDriver driver;
 	
-public static void main(String[] arg) {
+public static void main(String[] arg) throws InterruptedException {
 	
 	System.setProperty("webdriver.gecko.driver", "C:\\Users\\E2E\\Desktop\\Drivers\\geckodriver.exe");
 	driver = new FirefoxDriver();
@@ -24,8 +24,8 @@ public static void main(String[] arg) {
 	JavascriptExecutor jse = ((JavascriptExecutor)driver);
 	jse.executeScript("window.scrollBy(0,800)");
 	
-	
-	driver.findElement(By.xpath("//div[contains(text(),'Material')]"));
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("//div[contains(text(),'Material')]")).click();
 	
 	/*WebElement list = driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div/div"));
 	driver.switchTo().frame(list);*/

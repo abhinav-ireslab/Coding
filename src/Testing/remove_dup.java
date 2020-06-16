@@ -5,7 +5,8 @@ public class remove_dup {
 	public static void main(String[] args) {
 
 		String str = "AbhinavGarg";
-		char[] str2 = str.toCharArray();
+		String str1 = str.toLowerCase();
+		char[] str2 = str1.toCharArray();
 		int i, j;
 		// int count=0;
 		
