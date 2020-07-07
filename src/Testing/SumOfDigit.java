@@ -9,7 +9,7 @@ public class SumOfDigit {
 		int result = 0;
 		
 		
-		while(number !=0) {
+		while(number >0) {
 			
 			reminder = number%10;
 			result = result +reminder;

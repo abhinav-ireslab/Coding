@@ -17,7 +17,7 @@ public class duplicate {
 				{
 					
 					//continue;
-					System.out.println(str2[j]);
+					System.out.print(str2[j]+ " ");
 					//count++;
 					//break;
 			
